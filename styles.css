@@ -199,7 +199,7 @@ ul a:hover{
  border: none;
  width: 600px;
  display: grid;
- grid-template-columns: repeat(2,1fr);
+ grid-template-columns: 1fr 1fr;
  gap: none;
 }
 .grid-1 {
@@ -424,9 +424,8 @@ footer p{
 }
 .svg div{
     border:1px solid black;
-    border-top-right-radius: 100%;
-    border-top-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 100%;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
     padding: 5px;
 }
