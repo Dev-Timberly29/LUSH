@@ -14,7 +14,7 @@
     padding-left: 100px;
     padding-right: 85px;
     height: 90vh;
-    background-image: url(pexels-suju-2292100.jpg);
+    background-image: url(picture/pexels-suju-2292100.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -82,7 +82,7 @@ ul a:hover{
  background-color: rgb(97, 182, 97);
 }
  
-/*Styling the second section*/
+/*=============Styling the second section=============*/
 
 .second-section{
     padding-top: 50px;
@@ -263,6 +263,11 @@ ul a:hover{
     width: 395px;
     height: 400px;
 }
+.small-cards img{
+    height:400px ;
+    width: 390px;
+    object-fit: cover;
+}
 
 /*STYLING THE SIXTH SECTION*/
 
@@ -313,7 +318,7 @@ ul a:hover{
 
 #seventh-section{
     height: 50vh;
-    background-image: url(green.jpg);
+    background-image: url(picture/green.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
@@ -390,6 +395,22 @@ form button{
     border-bottom-left-radius: 15px;
     margin-bottom: 20px;
 }
+.jan{
+    float:right ;
+    margin-right: 155px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: gainsboro;
+}
+.jan-1{
+    float: right;
+    margin-right: 30px;
+    margin-top: -59px;
+}
+.jan-1,a{
+    text-decoration: none;
+    color: green;
+}
 
 /*STYLING THE FOOTER*/
 
@@ -424,6 +445,7 @@ footer p{
 }
 .svg div{
     border:1px solid white;
+    border:2px solid white;
     border-radius: 100%;
     display: grid;
     place-items: center;
