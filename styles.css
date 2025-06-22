@@ -6,8 +6,7 @@
      font-weight: 400;
 }
 
-
-/*Styling the first section*/
+/*========Styling the first section========*/
 
 #first-section{
     padding-top: 50px;
@@ -26,7 +25,9 @@ header{
 }
 header h3{
     font-size: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:monospace;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 ul{
     list-style: none;
@@ -81,8 +82,18 @@ ul a:hover{
 .content a:hover{
  background-color: rgb(97, 182, 97);
 }
- 
-/*=============Styling the second section=============*/
+#fa-play{
+    border: 2px solid white ;
+    border-radius: 50%;
+    padding: 3px;
+    padding-left: 3px;
+}
+ #fa-fa-play{
+    height: 15px;
+    width: 20px;
+    align-items:center ;
+ }
+/*===========Styling the second section===========*/
 
 .second-section{
     padding-top: 50px;
@@ -119,16 +130,22 @@ ul a:hover{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
+.Indoor img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
 .Indoor h3{
     margin-top: 20px;
     margin-bottom: 20px;
     color:green;
+    margin-left: 20px;
 }
 .Indoor:hover{
     background-color: rgb(66, 226, 66);
 }
 
-/*Styling the third section*/
+/*=======Styling the third section=======*/
 
 #third-section{
     padding-right: 85px;
@@ -166,13 +183,30 @@ ul a:hover{
     border-top-left-radius: 10px;
     box-shadow: 5px 5px 15px rgb(137, 137, 137);
 }
-
+.plant{
+    color: gainsboro;
+}
+.plant-1{
+    color: green;
+}
+.plant-2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.li-a a{
+    padding: 6px;
+    float: right;
+    margin-top: -40px;
+    color: green;
+    border: 2px solid green;
+    border-radius:7px;
+}
 #third-section a, p{
     margin-left: 10px;
     margin-right: 10px;
 }
 
-/*STYLING THE FOURTH SECTION*/
+/*=======STYLING THE FOURTH SECTION=======*/
   #fourth-section{
     padding-top: 140px;
     padding-left: 10px;
@@ -185,6 +219,11 @@ ul a:hover{
     border: 1px solid rgb(198, 195, 195);
     padding-left: 9px;
     padding-right: 9px;
+}
+.grid i{
+    color: green;
+    height: 50px;
+    font-size: 5rem;
 }
 .grid:hover{
     background-color: rgb(200, 199, 199);
@@ -217,7 +256,7 @@ ul a:hover{
     grid-template-columns: 1fr 1fr;
 }
 
-/*STYLING THE FIFTH SECTION*/
+/*=======STYLING THE FIFTH SECTION=======*/
 #fifth-section{
     padding-top: 100px;
     padding-left: 10px;
@@ -269,7 +308,7 @@ ul a:hover{
     object-fit: cover;
 }
 
-/*STYLING THE SIXTH SECTION*/
+/*=======STYLING THE SIXTH SECTION=======*/
 
 #sixth-section{
     height: auto;
@@ -304,17 +343,21 @@ ul a:hover{
     background-color: rgb(231, 231, 231);
 }
 
-.text-card svg{
+.text-card img{
     border-radius: 100%;
     margin-bottom: 30px;
-    margin-right: 50px;
+    margin-left:10px;
+    height: 60px;
+    width: 60px;
+
 }
 .text-card h3{
     float: right;
     margin-top: 45px;
+    margin-right: 10px;
 }
 
-/*STYLING THE SEVENTH SECTION*/
+/*=======STYLING THE SEVENTH SECTION=======*/
 
 #seventh-section{
     height: 50vh;
@@ -351,7 +394,7 @@ form button{
     width: 400px;
 }
 
-/*STYLING THE EIGHTHT SECTION*/
+/*=======STYLING THE EIGHTHT SECTION=======*/
 
 #eight-section{
     height: auto;
@@ -395,9 +438,12 @@ form button{
     border-bottom-left-radius: 15px;
     margin-bottom: 20px;
 }
+.in-card i{
+    margin-top: 35px;
+}
 .jan{
     float:right ;
-    margin-right: 155px;
+    margin-right: 170px;
     margin-top: 30px;
     margin-bottom: 40px;
     color: gainsboro;
@@ -412,7 +458,7 @@ form button{
     color: green;
 }
 
-/*STYLING THE FOOTER*/
+/*=======STYLING THE FOOTER=======*/
 
 footer{
     margin-top: 55px;
@@ -438,16 +484,31 @@ footer nav{
     display: flex;
     justify-content: center;
 }
+.footer-div{
+    background-color: black;
+    padding: 6px;
+    margin-top: 55px;
+}
 footer p{
     color: white;
     display: flex;
     justify-content: center;
 }
-.svg div{
+.icon{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icon div{
     border:1px solid white;
     border:2px solid white;
     border-radius: 100%;
     display: grid;
     place-items: center;
     padding: 5px;
+    color: white;
+    width: 40px;
+    height: 40px;
 }
