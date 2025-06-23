@@ -82,17 +82,6 @@ ul a:hover{
 .content a:hover{
  background-color: rgb(97, 182, 97);
 }
-#fa-play{
-    border: 2px solid white ;
-    border-radius: 50%;
-    padding: 3px;
-    padding-left: 3px;
-}
- #fa-fa-play{
-    height: 15px;
-    width: 20px;
-    align-items:center ;
- }
 /*===========Styling the second section===========*/
 
 .second-section{
@@ -453,6 +442,7 @@ form button{
     margin-right: 30px;
     margin-top: -59px;
 }
+
 .jan-1,a{
     text-decoration: none;
     color: green;
@@ -486,8 +476,8 @@ footer nav{
 }
 .footer-div{
     background-color: black;
-    padding: 6px;
-    margin-top: 55px;
+    padding: 7px;
+    margin-top: 59px;
 }
 footer p{
     color: white;
